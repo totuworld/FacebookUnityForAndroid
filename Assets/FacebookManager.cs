@@ -79,7 +79,7 @@ public class FacebookManager : MonoBehaviour {
 	#endif
 	}
 	
-	void didLogin(string id, string fullJson)
+	void didLogin(string id)
 	{
 		_isSessionOpen = true;
 		StartCoroutine(LoadProfileImage(id) );
